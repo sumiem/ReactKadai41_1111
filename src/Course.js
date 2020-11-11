@@ -80,7 +80,7 @@ const Course = () => {
   return (
     <>
       <Course1>
-        <h1>COURSE</h1>
+        <h1 id="course">COURSE</h1>
         <CourseText>
           <CourseText1>
             未経験からでもスタートができるよう、カリキュラムは多くの専門家や<br/><br/>

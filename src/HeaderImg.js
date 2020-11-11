@@ -1,16 +1,10 @@
 
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import ImgPath from "./img/header_logo.png";
-
-// const ImgPath = styled.img`
-  // font-size: 20px;
-  // background-color: pink;
-// `;
 
 
 const HeaderImg = () => {
-  return <img src={ImgPath}  width="120" height="68" alt="logo" />;
+  return <img src={ImgPath}  height="68" alt="logo" />;
 };
-
 export default HeaderImg;

@@ -1,13 +1,10 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  /* background-color: #707070 */
 }
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.headerImage{
+
+.HeaderImg{
   margin-top: 10px;
   margin-left: 20px;
   }
@@ -41,101 +38,27 @@ p{
   line-height: normal;    
 }
 
-
-/* .navMenu li {
-  text-align: center;
-  display: inline;
-  padding: 50px 25px;
-  font-size: 21px;
-} */
-
-.Main{
-  background-image: url(./img/mainbg.png);
+.mainvisual{
+  width: 100%;
   height: 450px;
-  margin: auto;
+  background: url(./img/mainbg.png) no-repeat center center;
   background-size: cover;
-}
-
-p.title {
-  color: white;
-  font-size: 40px;
-  padding-top: 160px;
-  text-align: center;
-}
-
-p.text {
-  text-align: center;
-  color: white;
-  font-size: 30px;
-  padding-top: 30px;
 }
 
 /* about全体 */
 .about{text-align: center;}
 
-/* .about_text{ */
-  /* font-size: 16px; */
-  /* color: #222222; */
-/* } */
-/* p.about_text2 { */
-  /* padding-top: 40px; */
-  /* font-size: 16px; */
-/* } */
-
-/* p.about_text3 { */
-  /* padding-top: 40px; */
-/* } */
-/* p.about_text4 { */
-  /* padding-top: 40px; */
-  /* padding-bottom: 60px; */
-/* } */
-
-/* .about_image{ */
-  /* display: flex; */
-  /* justify-content: center; */
-/* } */
-
-/* .about_image img{padding: 0;
-  width: 24%;
-  margin: 0;
-} */
-
-ul{
-  list-style: none;
-}
 /* ABOUT おわり */
 
 /* COURSEスタート */
-/* p.course_text1 { */
-  /* font-size: 16px; */
-  /* color: #222222; */
-  /* text-align: center; */
-  /* padding-bottom: 60px */
-/* } */
 
 /* COURSEコンテンツ 1*/
-/* .course_content1{ */
-  /* display: flex; */
-/* } */
 
-/* .course_image1{ */
-  /* width: 50%; */
-/* } */
-
-/* img{width: 100%;} */
-
-/* .content_text1{ */
-  /* margin: 0%; */
-  /* margin-top: auto; */
-  /* margin-bottom: auto; */
- 
-/* } */
 
 .textboxA{
   padding-left: 50px;
   vertical-align: middle;
 }
-
 .textboxB{
   width: 100%;
   margin: 0 0 0 auto;
@@ -143,45 +66,7 @@ ul{
   border-right: 0;
 }
 
-/* COURSEコンテンツ　２ 写真右*/
-
-/* .courseContent2{ */
-  /* display: flex; */
-/* } */
-
-/* .courseImage2{ */
-  /* width: 50%; */
-/* margin: 0 0 0 auto;} */
-
-/* img{width: 100%;} */
-
-/* .contentText2{ */
-  /* width: 50%; */
-  /* margin: 0; */
-  /* margin-top: auto; */
-  /* margin-bottom: auto; */
-/* } */
-
-
-/* COURSEコンテンツ３ */
-
-/* .courseContent3{ */
-  /* display: flex; */
-/* } */
-
-/* .courseImage3{ */
-  /* width: 50%; */
-/* } */
-/* img{width: 100%;} */
-
-/* .contentText3{ */
-  /* margin: 0%; */
-  /* margin-top: auto; */
-  /* margin-bottom: auto; */
-/* } */
-
-
-
+/* COURSEコンテンツ 写真右*/
 
 /* NEWS */
 .newsContent {
@@ -199,7 +84,6 @@ ul{
   padding-top: 30px;
   padding-bottom: 24px;
 }
-
 
 /* ボタン */
 

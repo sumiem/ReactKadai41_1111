@@ -45,7 +45,7 @@ const AboutImage = styled.img`
 const About = () => {
   return (
     <>
-      <div className="AboutAll" id="AboutAll">
+      <div className="AboutAll" id="about">
         <AboutH1>ABOUT</AboutH1>
         <AboutH2 className="AboutH2">チーズアカデミーについて</AboutH2>
         <AboutText>
