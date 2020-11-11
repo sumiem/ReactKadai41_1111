@@ -12,14 +12,14 @@ import Access from "./Access";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-const App = () => {
+const App = (props) => {
   return (
     <>
     <header>
       <HeaderImg />
       <HeaderNav/>
       </header>
-      <Main/>
+        <Main/>
       {/* <div className="wrap">  */}
       <About />
       <Course/>

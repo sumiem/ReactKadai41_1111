@@ -10,7 +10,7 @@ import ImgPath from "./img/header_logo.png";
 
 
 const HeaderImg = () => {
-  return <img src={ImgPath}  width="120" height="68" alt="ロゴ" />;
+  return <img src={ImgPath}  width="120" height="68" alt="logo" />;
 };
 
 export default HeaderImg;
