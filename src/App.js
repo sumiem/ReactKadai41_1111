@@ -12,6 +12,7 @@ import Access from "./Access";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
+
 const HeaderAll = styled.div`
  display: flex;
 `;
@@ -23,12 +24,12 @@ const App = (props) => {
       <HeaderImg />
       <HeaderNav/>
       </HeaderAll>
-      <div className="mainALL">
-        <Main/></div>
+      <Main/>
       {/* <div className="wrap">  */}
       <About />
       <Course/>
       <News/>
+
       <Access/>
       <Contact/>
       {/* </div> */}

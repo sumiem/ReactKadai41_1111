@@ -1,42 +1,35 @@
 import React from "react";
 import styled from "styled-components";
-// import "./styles.css";
-import ImgPathM from "./img/mainbg.png";
-
+import Background from "./img/mainbg.png";
+// background: url(./img/mainbg.png);
 const Mtitle = styled.h1`
     color: white;
     font-size: 40px;
-    position:absolute;
-    top: 140px;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width:100%
+    padding-top: 160px;
+    text-align: center;
+    margin:0;
 `;
-const Mtext = styled.h1`
-  color: white;
-  font-weight: normal;
-  font-size: 30px;
-  position:absolute;
-  top: 230px;
-  left:50%;
-  transform: translate(-50%,-50%);
-  width:100%
-`;
-const MainVisual = styled.div`
-  position: relative;
-    /* background-image: "url(" + { ImgPathM } + ")"; */
+const Mtext = styled.p`
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    margin:0;
 `;
 
-const Main = (prop) => {
-    return (
-        <>
-            <MainVisual className="mainvisual">
-            <img src={ImgPathM}  height="450px" margin="auto" alt="logo" />
-                <Mtitle>セカイを変えるチーズを作ろう</Mtitle>
-                <Mtext>チーズ職人養成学校「チーズアカデミーTOKYO」</Mtext>
-            </MainVisual>
-        </>
-    )
-}
+const Mv = styled.div`
+ background-image: url(${Background});
+ height: 450px;
+ margin: 0;
+ background-size: cover;
+`;
 
-export default Main
+const Main = () => {
+  return (
+    <Mv>
+      <Mtitle>セカイを変えるチーズを作ろう</Mtitle>
+      <Mtext>チーズ職人養成学校「チーズアカデミーTOKYO」</Mtext>
+    </Mv>
+  );
+};
+export default Main;
