@@ -17,7 +17,10 @@
 }
 
 h1.yellow{color: #ffd61a;}
-
+/* 一般設定 */
+ul{
+  list-style: none;
+}
 h1{padding-top: 60px;
   padding-bottom: 30px;
 font-size: 24px;
@@ -28,11 +31,15 @@ h2{
 padding-bottom: 60px;
 text-align: center;}
 
-h2 {
-  padding-bottom: 60px;
-  text-align: center;
+h3{font-weight: bold;
+  padding-bottom: 40px;
 }
 
+p{
+  font-size: 16px;
+  color: #222222;
+  line-height: normal;    
+}
 
 
 /* .navMenu li {
@@ -63,29 +70,30 @@ p.text {
   padding-top: 30px;
 }
 
+/* about全体 */
 .about{text-align: center;}
 
-.about_text{
-  font-size: 16px;
-  color: #222222;
-}
-p.about_text2 {
-  padding-top: 40px;
-  font-size: 16px;
-}
+/* .about_text{ */
+  /* font-size: 16px; */
+  /* color: #222222; */
+/* } */
+/* p.about_text2 { */
+  /* padding-top: 40px; */
+  /* font-size: 16px; */
+/* } */
 
-p.about_text3 {
-  padding-top: 40px;
-}
-p.about_text4 {
-  padding-top: 40px;
-  padding-bottom: 60px;
-}
+/* p.about_text3 { */
+  /* padding-top: 40px; */
+/* } */
+/* p.about_text4 { */
+  /* padding-top: 40px; */
+  /* padding-bottom: 60px; */
+/* } */
 
-.about_image{
-  display: flex;
-  justify-content: center;
-}
+/* .about_image{ */
+  /* display: flex; */
+  /* justify-content: center; */
+/* } */
 
 /* .about_image img{padding: 0;
   width: 24%;
@@ -98,89 +106,79 @@ ul{
 /* ABOUT おわり */
 
 /* COURSEスタート */
-p.course_text1 {
-  font-size: 16px;
-  color: #222222;
-  text-align: center;
-  padding-bottom: 60px
-}
+/* p.course_text1 { */
+  /* font-size: 16px; */
+  /* color: #222222; */
+  /* text-align: center; */
+  /* padding-bottom: 60px */
+/* } */
 
 /* COURSEコンテンツ 1*/
-.course_content1{
-  display: flex;
-}
+/* .course_content1{ */
+  /* display: flex; */
+/* } */
 
-.course_image1{
-  width: 50%;
-}
+/* .course_image1{ */
+  /* width: 50%; */
+/* } */
+
 /* img{width: 100%;} */
 
-.content_text1{
-  margin: 0%;
-  margin-top: auto;
-  margin-bottom: auto;
+/* .content_text1{ */
+  /* margin: 0%; */
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
  
-}
+/* } */
 
 .textboxA{
   padding-left: 50px;
-  
   vertical-align: middle;
 }
 
-
-
-h3{font-weight: bold;
-  padding-bottom: 40px;
-}
-p{
-  font-size: 16px;
-  color: #222222;
-  line-height: normal;    
+.textboxB{
+  width: 100%;
+  margin: 0 0 0 auto;
+  padding-left: 20px;
+  border-right: 0;
 }
 
 /* COURSEコンテンツ　２ 写真右*/
 
-.courseContent2{
-  display: flex;
-}
+/* .courseContent2{ */
+  /* display: flex; */
+/* } */
 
-.courseImage2{
-  width: 50%;
-margin: 0 0 0 auto;}
+/* .courseImage2{ */
+  /* width: 50%; */
+/* margin: 0 0 0 auto;} */
 
 /* img{width: 100%;} */
 
-.contentText2{
-  width: 50%;
-  margin: 0;
-  margin-top: auto;
-  margin-bottom: auto;
-}
+/* .contentText2{ */
+  /* width: 50%; */
+  /* margin: 0; */
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+/* } */
 
-.textboxB{
-  width: 480px;
-  margin: 0 0 0 auto;
-  border-right: 0;
-
-}
 
 /* COURSEコンテンツ３ */
 
-.courseContent3{
-  display: flex;
-}
+/* .courseContent3{ */
+  /* display: flex; */
+/* } */
 
-.courseImage3{
-  width: 50%;
-}
+/* .courseImage3{ */
+  /* width: 50%; */
+/* } */
 /* img{width: 100%;} */
 
-.contentText3{
-  margin: 0%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
+/* .contentText3{ */
+  /* margin: 0%; */
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+/* } */
 
 
 

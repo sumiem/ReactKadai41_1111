@@ -19,7 +19,8 @@ const App = (props) => {
       <HeaderImg />
       <HeaderNav/>
       </header>
-        <Main/>
+      <div className="Main">
+        <Main/></div>
       {/* <div className="wrap">  */}
       <About />
       <Course/>
